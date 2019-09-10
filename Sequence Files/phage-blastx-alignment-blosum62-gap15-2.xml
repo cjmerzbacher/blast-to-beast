@@ -1,0 +1,2477 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_159026</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>336</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_159026</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>336</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_015969375.1|</Hit_id>
+  <Hit_def>MULTISPECIES: co-chaperone GroES [Bacteria] &gt;ref|NP_049825.1| gp31 head assembly cochaperone with GroEL [Escherichia virus T4] &gt;ref|YP_002854165.1| gp31 head assembly co-chaperonin for GroEL [Enterobacteria phage RB51] &gt;ref|YP_004415103.1| hypothetical protein Shfl2p212 [Shigella phage Shfl2] &gt;ref|YP_006986766.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_ACG-C40] &gt;ref|YP_007004951.1| head assembly cochaperone with GroEL [Escherichia phage wV7] &gt;ref|YP_009030818.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_112] &gt;ref|YP_009098594.1| capsid and scaffold protein [Escherichia phage RB3] &gt;ref|YP_009102412.1| capsid and scaffold protein [Enterobacteria phage RB27] &gt;ref|YP_009102682.1| capsid and scaffold protein [Escherichia phage ECML-134] &gt;ref|YP_009111026.1| hypothetical protein pSs1_00218 [Shigella phage pSs-1] &gt;ref|YP_009149453.1| phage head assembly chaperone protein [Yersinia phage phiD1] &gt;ref|YP_009153809.1| head assembly cochaperone with GroEL [Yersinia phage PST] &gt;ref|YP_009167579.1| capsid and scaffold protein [Enterobacteria phage RB68] &gt;ref|YP_009168029.1| head assembly cochaperone with GroEL [Escherichia phage AR1] &gt;ref|YP_009197246.1| Chaperonin 10 Kd subunit [Escherichia phage slur07] &gt;ref|YP_009277582.1| capsid assembly chaperone [Shigella phage SHFML-11] &gt;ref|YP_009278934.1| capsid assembly chaperone [Shigella phage SHFML-26] &gt;ref|YP_009281542.1| capsid and scaffold protein [Escherichia phage UFV-AREG1] &gt;ref|YP_009288574.1| capsid assembly chaperone [Shigella phage SHBML-50-1] &gt;ref|YP_009290475.1| hypothetical protein vBEcoMUFV13_g210 [Escherichia phage vB_EcoM-UFV13] &gt;ref|YP_009614861.1| head assembly chaperone [Shigella phage Sf22] &gt;ref|YP_009619017.1| head assembly chaperone [Shigella phage Sf21] &gt;ref|YP_803150.1| head assembly co-chaperonin for GroEL [Escherichia virus RB32] &gt;sp|P17313.1| RecName: Full=Capsid assembly protein Gp31 [Escherichia virus T4] &gt;pdb|1G31|A Chain A, GP31 [Escherichia virus T4] &gt;pdb|1G31|B Chain B, GP31 [Escherichia virus T4] &gt;pdb|1G31|C Chain C, GP31 [Escherichia virus T4] &gt;pdb|1G31|D Chain D, GP31 [Escherichia virus T4] &gt;pdb|1G31|E Chain E, GP31 [Escherichia virus T4] &gt;pdb|1G31|F Chain F, GP31 [Escherichia virus T4] &gt;pdb|1G31|G Chain G, GP31 [Escherichia virus T4] &gt;pdb|2CGT|O Chain O, Capsid Assembly Protein Gp31 [Escherichia virus T4] &gt;pdb|2CGT|P Chain P, Capsid Assembly Protein Gp31 [Escherichia virus T4] &gt;pdb|2CGT|Q Chain Q, Capsid Assembly Protein Gp31 [Escherichia virus T4] &gt;pdb|2CGT|R Chain R, Capsid Assembly Protein Gp31 [Escherichia virus T4] &gt;pdb|2CGT|S Chain S, Capsid Assembly Protein Gp31 [Escherichia virus T4] &gt;pdb|2CGT|T Chain T, Capsid Assembly Protein Gp31 [Escherichia virus T4] &gt;pdb|2CGT|U Chain U, Capsid Assembly Protein Gp31 [Escherichia virus T4] &gt;gb|ADJ39935.1| head assembly cochaperone with GroEL [Enterobacteria phage T4T] &gt;gb|AIT73215.1| capsid and scaffold protein [Enterobacteria phage RB5] &gt;gb|AIT73486.1| capsid and scaffold protein [Enterobacteria phage RB6] &gt;gb|AIT73757.1| capsid and scaffold protein [Enterobacteria phage RB7] &gt;gb|AIT74029.1| capsid and scaffold protein [Enterobacteria phage RB9] &gt;gb|AIT74302.1| capsid and scaffold protein [Enterobacteria phage RB10] &gt;gb|AIT74847.1| capsid and scaffold protein [Enterobacteria phage RB33] &gt;gb|AIT75121.1| capsid and scaffold protein [Enterobacteria phage RB55] &gt;gb|AIT75395.1| capsid and scaffold protein [Enterobacteria phage RB59] &gt;gb|AKE46221.1| chaperonin 10 Kd subunit [Escherichia coli O157 typing phage 7] &gt;gb|ANH49659.1| capsid and scaffold protein [Escherichia phage PE37] &gt;gb|ANZ50805.1| head assembly co-chaperonin for GroEL [Enterobacteria phage Aplg8] &gt;gb|ANZ51830.1| head assembly co-chaperonin for GroEL [Enterobacteria phage Kha5h] &gt;gb|APC45220.1| head assembly cochaperone with GroEL [Shigella phage SH7] &gt;gb|ASZ77335.1| head assembly chaperone protein [Escherichia phage ECO4] &gt;gb|AUV59580.1| capsid assembly chaperone [Citrobacter phage vB_CroM_CrRp10] &gt;gb|AUV61071.1| capsid assembly chaperone [Escherichia phage vB_EcoM-fFiEco06] &gt;gb|AUV61343.1| capsid assembly chaperone [Escherichia phage vB_EcoM-fHoEco02] &gt;gb|AVH86040.1| hypothetical protein G28_00214 [Escherichia phage vB_EcoM-G28] &gt;gb|AWM12109.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_NBG2] &gt;gb|AXC34129.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_JB75] &gt;gb|AXN58246.1| head assembly cochaperone with GroEL [Enterobacteria phage T6] &gt;gb|AYJ74453.1| head assembly chaperone protein [Yersinia phage PYPS2T] &gt;gb|AYP69865.1| head assembly chaperone protein [Escherichia phage vB_EcoM_DalCa] &gt;gb|AYR03678.1| head assembly cochaperone [Escherichia phage MLF4] &gt;gb|QBO60951.1| hypothetical protein G2133_00220 [Escherichia phage vB_EcoM_G2133] &gt;gb|QBO61216.1| chaperonin 10 Kd subunit [Escherichia phage D5505] &gt;gb|QBO63448.1| hypothetical protein G2540_00214 [Escherichia phage vB_EcoM_G2540] &gt;gb|QBO63726.1| hypothetical protein G10400_00218 [Escherichia phage vB_EcoM_G10400] &gt;gb|QBO64254.1| hypothetical protein G4498_00224 [Escherichia phage vB_EcoM_G4498] &gt;gb|QBO64533.1| hypothetical protein G29_00226 [Escherichia phage vB_EcoM_G29] &gt;gb|QBO65079.1| hypothetical protein G50_00216 [Escherichia phage vB_EcoM_G50] &gt;gb|QBO65905.1| hypothetical protein G4500_00229 [Escherichia phage vB_EcoM_G4500] &gt;gb|QBO66179.1| hypothetical protein G4507_00224 [Escherichia phage vB_EcoM_G4507] &gt;gb|QBQ79540.1| hypothetical protein OE5505_00225 [Escherichia phage vB_EcoM_OE5505] &gt;gb|QBQ79823.1| hypothetical protein R5505_00228 [Escherichia phage vB_EcoM_R5505] &gt;gb|QCQ57187.1| hypothetical protein EcNP1_gp165 [Escherichia phage EcNP1] &gt;gb|QDF15233.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM-Sa45lw] &gt;gb|QEG04892.1| head assembly cochaperone with GroEL [Shigella phage CM8] &gt;gb|QEG05248.1| head assembly cochaperone with GroEL [Shigella phage JK23] &gt;gb|QEG06054.1| head assembly cochaperone with GroEL [Shigella phage JK38] &gt;emb|VEV89527.1| Phage capsid assembly chaperone [Yersinia phage fPS-65] &gt;dbj|BBC14552.1| gp31 head assembly cochaperone with GroEL [Escherichia phage PP01] &gt;dbj|BBI58338.1| hypothetical protein [Shigella phage SfPhi01]</Hit_def>
+  <Hit_accession>WP_015969375</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>3.32005e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_015996009.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;ref|YP_002854544.1| gp31 head assembly co-chaperonin for GroEL [Escherichia virus RB14] &gt;ref|YP_007004585.1| phage capsid and scaffold protein [Escherichia phage ime09] &gt;ref|YP_009180709.1| Chaperonin 10 Kd subunit [Escherichia phage slur14] &gt;ref|YP_009210129.1| gp31 head assembly co-chaperonin for GroEL [Enterobacteria phage RB14] [Escherichia phage slur02] &gt;ref|YP_009284251.1| putative head assembly co-chaperonin for GroEL [Escherichia phage HY03] &gt;ref|YP_009619141.1| head assembly chaperone [Shigella phage Sf24] &gt;ref|YP_009625041.1| gp31 head assembly co-chaperonin for GroEL [Enterobacteria phage RB14] [Escherichia phage slur03] &gt;ref|YP_009625426.1| Chaperonin 10 Kd subunit [Escherichia phage slur04] &gt;gb|ANZ51392.1| head assembly chaperone protein [Enterobacteria phage GiZh] &gt;gb|ASZ76123.1| head assembly chaperone protein [Salmonella phage SG1] &gt;gb|ASZ77041.1| head assembly chaperone protein [Escherichia phage EC121] &gt;gb|ATE86467.1| head assembly chaperone [Shigella phage Sf23] &gt;gb|AXF42519.1| head assembly cochaperone with GroEL [Enterobacteria phage RB18] &gt;gb|AYD82804.1| head assembly cochaperone with GroEL [Escherichia phage T2] &gt;gb|AYD85205.1| hypothetical protein [Escherichia phage vB_vPM_PD112] &gt;gb|QBQ77993.1| hypothetical protein G9062_00222 [Escherichia phage vB_EcoM_G9062] &gt;gb|QBQ78494.1| hypothetical protein KAW1E185_00221 [Escherichia phage vB_EcoM_KAW1E185] &gt;gb|QBQ80090.1| hypothetical protein G8_00214 [Escherichia phage vB_EcoM_G8] &gt;emb|CUL02585.1| Chaperonin 10 Kd subunit [Escherichia phage slur08] &gt;emb|CUL02980.1| Chaperonin 10 Kd subunit [Escherichia phage slur11] &gt;emb|CUL03766.1| Chaperonin 10 Kd subunit [Escherichia phage slur13] &gt;emb|VEV89053.1| Phage head assembly chaperone protein [Yersinia phage fPS-90] &gt;emb|VEV89822.1| Phage head assembly chaperone protein [Yersinia phage fPS-2]</Hit_def>
+  <Hit_accession>WP_015996009</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>4.32087e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVIHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCV+HSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|KLD74194.1|</Hit_id>
+  <Hit_def>hypothetical protein Y886_33940 [Xanthomonas hyacinthi DSM 19077]</Hit_def>
+  <Hit_accession>KLD74194</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>4.32087e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSIGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHS+GPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>dbj|BBG28726.1|</Hit_id>
+  <Hit_def>head assembly Co-chaperone with GroEL [Escherichia phage KIT03]</Hit_def>
+  <Hit_accession>BBG28726</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>8.82014e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRAQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKR QGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AWD91472.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Enterobacteria phage vB_EcoM_IME339]</Hit_def>
+  <Hit_accession>AWD91472</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>9.95224e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCFYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPC YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AWD91728.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Enterobacteria phage vB_EcoM_IME340]</Hit_def>
+  <Hit_accession>AWD91728</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.00621e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEFVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGE+VILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|QDK04338.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia virus VEc20]</Hit_def>
+  <Hit_accession>QDK04338</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.14789e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPSQAGDEEVTESGLIIGKRVQGEVPELCVIHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEP+QAGDEEVTESGLIIGKRVQGEVPELCV+HSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|APU02564.1|</Hit_id>
+  <Hit_def>capsid and scaffold protein [Escherichia phage YUEEL01]</Hit_def>
+  <Hit_accession>APU02564</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>2.19379e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEDFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPE FCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|QBO65620.1|</Hit_id>
+  <Hit_def>hypothetical protein G25403_00216 [Escherichia phage vB_EcoM_G2540-3]</Hit_def>
+  <Hit_accession>QBO65620</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>7.83865e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVIHSVGHDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCV+HSVG DVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|YP_009148650.1|</Hit_id>
+  <Hit_def>putative head assembly cochaperone with GroEL [Escherichia phage HY01] &gt;gb|AHK11056.1| putative head assembly cochaperone with GroEL [Escherichia phage HY01] &gt;gb|AKN44681.1| putative head assambly cochaperone with GroEL [Escherichia phage PEC04]</Hit_def>
+  <Hit_accession>YP_009148650</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>3.0228e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MSEVQQL-PIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVIHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQQL PIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCV+HSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AYD79420.1|</Hit_id>
+  <Hit_def>hypothetical protein FFEPELFE_00180 [Shigella phage phi25-307]</Hit_def>
+  <Hit_accession>AYD79420</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>3.04252e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQ-LPIRAVGEYVILVSEPAQAGDEEVTESGLVIGKRVQGEVPELCVVHSVGPDVPEGFVEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQ LPIRAVGEYVILVSEPAQAGDEEVTESGL+IGKRVQGEVPELCVVHSVGPDVPEGF EVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|NP_861912.1|</Hit_id>
+  <Hit_def>gp31 head assembly cochaperone with GroEL [Enterobacteria phage RB69] &gt;ref|YP_009037558.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_JS09] &gt;ref|YP_009056794.1| head assembly cochaperone [Escherichia phage vB_EcoM_PhAPEC2] &gt;ref|YP_009100753.1| co-chaperone for GroEL [Shigella phage Shf125875] &gt;ref|YP_009225045.1| head assembly cochaperone with GroEL [Escherichia phage APCEc01] &gt;ref|YP_009289074.1| head assembly chaperone protein [Shigella phage SHSML-52-1] &gt;ref|YP_009592748.1| chaperonin 10 Kd subunit [Escherichia coli O157 typing phage 3] &gt;ref|YP_009593208.1| chaperonin 10 Kd subunit [Escherichia coli O157 typing phage 6] &gt;ref|YP_009608456.1| head assembly cochaperone [Escherichia phage ST0] &gt;gb|AKE46947.1| chaperonin 10 Kd subunit [Escherichia coli O157 typing phage 13] &gt;gb|ANZ51001.1| head assembly chaperone protein [Enterobacteria phage ATK47] &gt;gb|ANZ51343.1| head assembly co-chaperonin for GroEL [Enterobacteria phage ATK48] &gt;gb|AWY07788.1| head assembly cochaperone [Escherichia phage SF] &gt;gb|AYN56205.1| capsid assembly protein [Escherichia phage p000v] &gt;gb|AYR04127.1| head assembly cochaperone [Escherichia phage OLB35] &gt;gb|QBO62639.1| hypothetical protein G2285_00213 [Escherichia phage vB_EcoM_G2285] &gt;gb|QBO62910.1| hypothetical protein G2469_00218 [Escherichia phage vB_EcoM_G2469] &gt;gb|QBO65357.1| hypothetical protein G53_00218 [Escherichia phage vB_EcoM_G53] &gt;gb|QBP05562.1| head assembly chaperone protein [Escherichia phage PHB12] &gt;gb|QBQ76969.1| hypothetical protein WFL6982_00208 [Escherichia phage vB_EcoM_WFL6982] &gt;gb|QBQ77230.1| hypothetical protein WFK_00208 [Escherichia phage vB_EcoM_WFK] &gt;gb|QBQ77723.1| hypothetical protein WFbE185_00220 [Escherichia phage vB_EcoM_WFbE185] &gt;gb|QBQ78773.1| hypothetical protein KAW3E185_00220 [Escherichia phage vB_EcoM_KAW3E185] &gt;gb|QBQ79270.1| hypothetical protein MM02_00222 [Escherichia phage vB_EcoM_MM02] &gt;gb|QBZ71103.1| head assembly cochaperone with GroEL [Shigella phage SSE1] &gt;gb|QEG05797.1| head assembly cochaperone with GroEL [Shigella phage JK36] &gt;gb|QEG06334.1| head assembly cochaperone with GroEL [Shigella phage JK42] &gt;emb|VCU43285.1| head assembly cochaperone [Escherichia virus vB_Eco_mar005P1]</Hit_def>
+  <Hit_accession>NP_861912</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>4.19366e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQ-LPIRAVGEYVILVSEPAQAGDEEVTESGLVIGKRVQGEVPELCVVHSVGPDVPEGFVEVGDLTPLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQ LPIRAVGEYVILVSEPAQAGDEEVTESGL+IGKRVQGEVPELCVVHSVGPDVPEGF EVGDLT LPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|AYN56655.1|</Hit_id>
+  <Hit_def>capsid assembly protein [Escherichia phage p000y]</Hit_def>
+  <Hit_accession>AYN56655</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>5.45762e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQ-LPIRAVGEYVILVSEPAQAGDEEVTESGLVIGKRVQGEVPELCIVHSVGPDVPEGFVEVGDLTPLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQ LPIRAVGEYVILVSEPAQAGDEEVTESGL+IGKRVQGEVPELC+VHSVGPDVPEGF EVGDLT LPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ARM70768.1|</Hit_id>
+  <Hit_def>head assembly cochaperone [Escherichia phage phiC120]</Hit_def>
+  <Hit_accession>ARM70768</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>1.15123e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQ-LPIRAVGEYVILVSEPAQAGDEEVTESGLVIGKRVQGEVPELCVVHSVGPDVPEGFVEAGDLTPLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQ LPIRAVGEYVILVSEPAQAGDEEVTESGL+IGKRVQGEVPELCVVHSVGPDVPEGF E GDLT LPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AWM11847.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Escherichia phage vB_EcoM_NBG1] &gt;gb|EAA6275676.1| hypothetical protein [Salmonella enterica subsp. enterica]</Hit_def>
+  <Hit_accession>AWM11847</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>1.48185e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQ-LPIRAVGEYVILVSEPAQAGDEEVTESGLVIGKRVQGEVPELCVVHSVGPDVPKGFVEVGDLTPLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQ LPIRAVGEYVILVSEPAQAGDEEVTESGL+IGKRVQGEVPELCVVHSVGPDVP+GF EVGDLT LPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|QEG06607.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Shigella phage JK45]</Hit_def>
+  <Hit_accession>QEG06607</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>6.73977e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSEVQ-LPIRAVGEYVILVSEPAQAGDEEVTESGLVIGKRVQGEVPELCVVHSVGLDVPEGFVEVGDLTPLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>MSEVQ LPIRAVGEYVILVSEPAQAGDEEVTESGL+IGKRVQGEVPELCVVHSVG DVPEGF EVGDLT LPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AUV63344.1|</Hit_id>
+  <Hit_def>head assembly chaperone [Shigella phage Sf25]</Hit_def>
+  <Hit_accession>AUV63344</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.59182e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTC</Hsp_qseq>
+      <Hsp_hseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTC</Hsp_hseq>
+      <Hsp_midline>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|QEA10702.1|</Hit_id>
+  <Hit_def>head assembly cochaperone [Edwardsiella phage vB_EtaM-IME523]</Hit_def>
+  <Hit_accession>QEA10702</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>6.77511e-61</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIRAVGEYVILVSEPKQAGDEEITESGLIIGKRSQGEIPELCTVYSVGPDVPAGFCEVGDLTPLPVGKIANVPHPLVALGLKQAKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPIRAVGEYVILVSEP QAGDEE+TESGLIIGKR QGE+PELC V+SVGPDVP GFCEVGDLT LPVG+I NVPHP VALGLKQ KEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|YP_003734352.1|</Hit_id>
+  <Hit_def>31 gene product [Enterobacteria phage IME08] &gt;gb|ADI55531.1| gp31 head assembly cochaperone with GroEL [Enterobacteria phage IME08]</Hit_def>
+  <Hit_accession>YP_003734352</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>6.72137e-58</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKAVGEYVILVSEPKQAGDEETTASGIVIGKLHQGEIPELCEIYSVGPDVPEGFCEVGDLTPLPVGKIANVPHPLVALGIKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPI+AVGEYVILVSEP QAGDEE T SG++IGK  QGE+PELC ++SVGPDVPEGFCEVGDLT LPVG+I NVPHP VALG+KQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|YP_001595336.1|</Hit_id>
+  <Hit_def>gp31 head assembly cochaperone with GroEL [Escherichia phage JS98] &gt;ref|YP_002922554.1| gp31 head assembly cochaperone with GroEL [Enterobacteria phage JS10] &gt;gb|AWD91991.1| head assembly cochaperone with GroEL [Enterobacteria phage vB_EcoM_IME341] &gt;gb|QAX99965.1| head assembly cochaperone with GroEL [Escherichia phage EcWhh-1] &gt;gb|QBP35553.1| capsid assembly chaperone [Phage NC-G] &gt;gb|ABX11142.1| gp31 head assembly cochaperone with GroEL [Escherichia phage JS98] &gt;gb|ACL78431.1| gp31 head assembly cochaperone with GroEL [Enterobacteria phage JS10]</Hit_def>
+  <Hit_accession>YP_001595336</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>1.02242e-57</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKAVGEYVILVSEPKQAGDEETTASGIVIGKLHQGEIPELCEIYSVGPDVPEGFCEVGDLTPLPVGKIANVPHPLVALGIKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPI+AVGEYVILVSEP QAGDEE T SG++IGK  QGE+PELC ++SVGPDVPEGFCEVGDLT LPVG+I NVPHP VALG+KQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|EBJ7676751.1|</Hit_id>
+  <Hit_def>hypothetical protein [Salmonella enterica]</Hit_def>
+  <Hit_accession>EBJ7676751</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>2.71218e-57</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>AQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>AQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|YP_007004234.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Enterobacteria phage Bp7] &gt;ref|YP_009202946.1| head assembly cochaperone with GroEL [Escherichia phage QL01] &gt;ref|YP_009323414.1| head assembly cochaperone with GroEL [Escherichia phage WG01] &gt;ref|YP_009324106.1| head assembly cochaperone with GroEL [Escherichia phage MX01] &gt;gb|AWD91075.1| head assembly cochaperone with GroEL [Enterobacteria phage vB_EcoM_IME281] &gt;gb|AZV00904.1| head assembly cochaperone [Escherichia phage vB_EcoM_005] &gt;gb|QAU03763.1| head assembly cochaperone with GroEL [Escherichia phage AnYang] &gt;gb|AEN93910.1| head assembly cochaperone with GroEL [Enterobacteria phage Bp7] &gt;gb|AKU42872.1| head assembly cochaperone with GroEL [Escherichia phage QL01]</Hit_def>
+  <Hit_accession>YP_007004234</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>8.04429e-57</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKAVGEYVILVSEPKQAGDEETTASGIVIGKLHQGEIPELCEIYSVGPDVPEDFCEVGDLTPLPVGKIANVPHPLVALGIKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPI+AVGEYVILVSEP QAGDEE T SG++IGK  QGE+PELC ++SVGPDVPE FCEVGDLT LPVG+I NVPHP VALG+KQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|YP_009205907.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Enterobacteria phage vB_EcoM_VR5] &gt;gb|AIZ02000.1| head assembly cochaperone with GroEL [Enterobacteria phage vB_EcoM_VR5]</Hit_def>
+  <Hit_accession>YP_009205907</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>8.04429e-57</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKAVGEYIILVSEPKQAGDEETTASGIVIGKLHQGEIPELCEVYSVGPDVPEDFCEVGDLTPLPVGKIANVPHPLVALGIKQPKEIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPI+AVGEY+ILVSEP QAGDEE T SG++IGK  QGE+PELC V+SVGPDVPE FCEVGDLT LPVG+I NVPHP VALG+KQPKEIKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|YP_003934848.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Shigella phage SP18] &gt;gb|ADO19565.1| head assembly cochaperone with GroEL [Shigella phage SP18]</Hit_def>
+  <Hit_accession>YP_003934848</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>4.86702e-56</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKAVGEYIILVSEPKQAGDEETTASGIVIGKLHQGEIPEMCEVFSVGPDVPEGFCEVGDLTPLPVGKIANVPHPLVALGLKQAKEVKQKFVTCHYKAVPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPI+AVGEY+ILVSEP QAGDEE T SG++IGK  QGE+PE+C V SVGPDVPEGFCEVGDLT LPVG+I NVPHP VALGLKQ KE+KQKFVTCHYKA+PCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_074146738.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074146738</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>4.87387e-56</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>VILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPC</Hsp_qseq>
+      <Hsp_hseq>VILVSEPAQAGDEEVTESGLVIGKRVQGEVPELCVVHSVGPDVPEGFVEVGDLTPLPVGQIRNVPHPFVALGLKHPKEIKQKFVTCHYKAIPC</Hsp_hseq>
+      <Hsp_midline>VILVSEPAQAGDEEVTESGL+IGKRVQGEVPELCVVHSVGPDVPEGF EVGDLT LPVGQIRNVPHPFVALGLK PKEIKQKFVTCHYKAIPC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|YP_004063907.1|</Hit_id>
+  <Hit_def>gp31 head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_VR7] &gt;gb|ADR32601.1| gp31 head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_VR7]</Hit_def>
+  <Hit_accession>YP_004063907</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>8.32581e-56</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKAVGEYIILVSEPKQAGDEETTASGIVIGKLHQGEIPEMCEVFSIGPDVPEGFCEVGDLTPLPVGKIANVPHPLVALGLKQAKEVKQKFVTCHYKAVPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPI+AVGEY+ILVSEP QAGDEE T SG++IGK  QGE+PE+C V S+GPDVPEGFCEVGDLT LPVG+I NVPHP VALGLKQ KE+KQKFVTCHYKA+PCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|YP_009211653.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Pectobacterium bacteriophage PM2] &gt;gb|AHY25194.1| head assembly cochaperone with GroEL [Pectobacterium bacteriophage PM2]</Hit_def>
+  <Hit_accession>YP_009211653</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>9.18988e-56</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>QLPIRAVGEYVILVSEPTQAGDELISSGGIVLGKETQGQLPELCTIFSVGPDVPEGFCEVGDLTPLPVGKIANVPHPLVALGLKKPKEIKEKYVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>QLPIRAVGEYVILVSEP QAGDE ++  G+++GK  QG++PELC + SVGPDVPEGFCEVGDLT LPVG+I NVPHP VALGLK+PKEIK+K+VTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|YP_009207400.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_VR20] &gt;ref|YP_009209968.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_VR25] &gt;ref|YP_009214061.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_VR26] &gt;gb|AIZ02279.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_VR20] &gt;gb|AIZ02570.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_VR25] &gt;gb|AIZ02861.1| head assembly cochaperone with GroEL [Escherichia phage vB_EcoM_VR26]</Hit_def>
+  <Hit_accession>YP_009207400</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>7.15008e-55</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKAVGEYIILVSEPKQAGDEETTASGIVIGKLHQGEIPEMCEVFSIGSDVPEGFCEVGDLTPLPVGKIANVPHPLVALGLKQAKEVKQKFVTCHYKAVPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPI+AVGEY+ILVSEP QAGDEE T SG++IGK  QGE+PE+C V S+G DVPEGFCEVGDLT LPVG+I NVPHP VALGLKQ KE+KQKFVTCHYKA+PCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|YP_009190387.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Edwardsiella phage PEi20] &gt;dbj|BAQ22879.1| head assembly cochaperone with GroEL [Edwardsiella phage PEi20] &gt;dbj|BAQ23181.1| head assembly cochaperone with GroEL [Edwardsiella phage PEi26]</Hit_def>
+  <Hit_accession>YP_009190387</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>9.72119e-55</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKAVGEYIILVSEPKQAGDEEVTASGIVIGKLHQGELPEMCEVYSIGPDVPEGFCEVGDLTPIPVGKIANVPHPLVALGVRKAKDIKQKFVTCHYKAIPCLYK</Hsp_hseq>
+      <Hsp_midline>+LPI+AVGEY+ILVSEP QAGDEEVT SG++IGK  QGE+PE+C V+S+GPDVPEGFCEVGDLT +PVG+I NVPHP VALG+++ K+IKQKFVTCHYKAIPCLYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|YP_009147934.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Salmonella phage STML-198] &gt;ref|YP_009615686.1| head assembly cochaperone with GroEL [Salmonella phage Melville] &gt;gb|AFU63892.1| head assembly chaperone protein [Salmonella phage STML-198] &gt;gb|ATN93174.1| head assembly cochaperone with GroEL [Salmonella phage Melville]</Hit_def>
+  <Hit_accession>YP_009147934</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>4.73229e-51</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEFVILVSEPAQSGDEKISDSGIFLGKEIQGQLPEMCEVYSIGADVPAGFVEVGDLTPLPVGNIRNVTHPLVALGIKQPKEIKQKFVTCHYKSLACVYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GE+VILVSEPAQ+GDE++++SG+ +GK +QG++PE+C V+S+G DVP GF EVGDLT LPVG IRNV HP VALG+KQPKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|YP_009126151.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Salmonella phage STP4-a] &gt;gb|AHJ86798.1| head assembly cochaperone with GroEL [Salmonella phage STP4-a]</Hit_def>
+  <Hit_accession>YP_009126151</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>4.83725e-51</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEFVILVSEPAQSGDEKISDSGIFLGKEIQGQLPEMCEVYSIGADVPTGFVEVGDLTPLPVGNIRNVTHPLVALGIKQPKEIKQKFVTCHYKSLACVYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GE+VILVSEPAQ+GDE++++SG+ +GK +QG++PE+C V+S+G DVP GF EVGDLT LPVG IRNV HP VALG+KQPKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|YP_007501241.1|</Hit_id>
+  <Hit_def>head assembly cochaperone [Salmonella phage vB_SenMS16] &gt;gb|AEO97136.1| head assembly cochaperone [Salmonella phage vB_SenMS16]</Hit_def>
+  <Hit_accession>YP_007501241</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>6.79618e-51</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEFVILVSEPAQSGDEKISDSGIFLGKEIQGQLPEMCEVYSIGADVPAGFVEIGDLTPLPVGNIRNVTHPLVALGIKQPKEIKQKFVTCHYKSLACVYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GE+VILVSEPAQ+GDE++++SG+ +GK +QG++PE+C V+S+G DVP GF E+GDLT LPVG IRNV HP VALG+KQPKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|YP_009286564.1|</Hit_id>
+  <Hit_def>head assembly cochaperone [Salmonella phage vB_SnwM_CGG4-1] &gt;gb|ANA49552.1| head assembly cochaperone [Salmonella phage vB_SnwM_CGG4-1]</Hit_def>
+  <Hit_accession>YP_009286564</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>1.12559e-50</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEFVILVSEPAQSGDEKISDSGIFLGKEIQGQLPEMCEVYSIGADVPAGFVEVGDLTPLPVGNIRNVAHPLVALGIKQPKDIKQKFVTCHYKSLACVYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GE+VILVSEPAQ+GDE++++SG+ +GK +QG++PE+C V+S+G DVP GF EVGDLT LPVG IRNV HP VALG+KQPK+IKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|YP_009618294.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroES [Citrobacter phage CF1 ERZ-2017] &gt;gb|AUE23108.1| head assembly cochaperone with GroES [Citrobacter phage CF1 ERZ-2017]</Hit_def>
+  <Hit_accession>YP_009618294</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>1.98858e-49</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MQSLPIKALGEYVILVSEPAQAGDEQVSTSGIFLGKEHQGQLPEMCEIYAIGDDVPKGFVEIGDLTPIPTGSIRNVVHPLVAAGLKQPKEIKQKFVTCHYKSLSCVYK</Hsp_hseq>
+      <Hsp_midline>+Q LPI+A+GEYVILVSEPAQAGDE+V+ SG+ +GK  QG++PE+C ++++G DVP+GF E+GDLT +P G IRNV HP VA GLKQPKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|YP_009146662.1|</Hit_id>
+  <Hit_def>head assembly co-chaperonin [Citrobacter phage Moon] &gt;gb|AIX12200.1| head assembly co-chaperonin [Citrobacter phage Moon]</Hit_def>
+  <Hit_accession>YP_009146662</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>3.32959e-49</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MQSLPIKALGEYVILVSEPAQAGDEQVSTSGIFLGKEQQGQLPEMCEIYAIGDDVPKGFVEIGDLTPIPTGSIRNVVHPLVAAGIKQPKEIKQKFVTCHYKSLSCVYK</Hsp_hseq>
+      <Hsp_midline>+Q LPI+A+GEYVILVSEPAQAGDE+V+ SG+ +GK  QG++PE+C ++++G DVP+GF E+GDLT +P G IRNV HP VA G+KQPKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|YP_009203948.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroES [Citrobacter phage Merlin] &gt;gb|AKU43880.1| head assembly cochaperone with GroES [Citrobacter phage Merlin]</Hit_def>
+  <Hit_accession>YP_009203948</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>6.64411e-49</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MQSLPIKALGEYVILVSEPAQAGDEKVSSSGIFLGKEHQGQLPEMCEIYAIGDDVPKGFVEIGDFTPIPTGSIRNVVHPLVAAGLKQPKEIKQKFVTCHYKSLSCVYK</Hsp_hseq>
+      <Hsp_midline>+Q LPI+A+GEYVILVSEPAQAGDE+V+ SG+ +GK  QG++PE+C ++++G DVP+GF E+GD T +P G IRNV HP VA GLKQPKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|YP_009190785.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Klebsiella phage JD18] &gt;gb|AKY02075.1| head assembly chaperone protein [Klebsiella phage JD18] &gt;gb|AUV57561.1| head assembly chaperone protein [Klebsiella phage KP1] &gt;gb|AWY07113.1| head assembly cochaperone with GroEL [Klebsiella phage Mineola]</Hit_def>
+  <Hit_accession>YP_009190785</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>9.24927e-49</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEYVILVSEPAQKGDEIVSPSGIILGKEEQGQLPDMCEIYSIGDDVPKGFVEVGDLTPLPVGNIRNVPHPLVAAGVKKPKEIKQKFVTCHYKSLACVYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GEYVILVSEPAQ GDE V+ SG+I+GK  QG++P++C ++S+G DVP+GF EVGDLT LPVG IRNVPHP VA G+K+PKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_110203030.1|</Hit_id>
+  <Hit_def>hypothetical protein [Klebsiella variicola] &gt;ref|YP_009288898.1| putative head assembly chaperone protein [Klebsiella phage vB_KpnM_KpV477] &gt;ref|YP_009289577.1| head assembly chaperone with GroEL [Klebsiella phage PKO111] &gt;gb|APD20615.1| capsid assembly chaperone [Klebsiella phage KPV15] &gt;gb|AYD80679.1| capsid assembly chaperone [Klebsiella phage KP179] &gt;gb|QEG10802.1| hypothetical protein KPN1_31 [Klebsiella phage KPN1] &gt;gb|QEG11106.1| hypothetical protein KPN2_182 [Klebsiella phage KPN2] &gt;gb|AKJ73254.1| head assembly chaperone with GroEL [Klebsiella phage PKO111]</Hit_def>
+  <Hit_accession>WP_110203030</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.65043e-48</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEYVILVSEPAQQGDEIVSPSGIILGKEEQGQLPDMCEIYSIGDDVPKGFVEVGDLTPLPVGNIRNVPHPLVAAGVKKPKEIRQKFVTCHYKSLACVYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GEYVILVSEPAQ GDE V+ SG+I+GK  QG++P++C ++S+G DVP+GF EVGDLT LPVG IRNVPHP VA G+K+PKEI+QKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|YP_009609540.1|</Hit_id>
+  <Hit_def>head assembly cochaperone [Serratia phage CHI14] &gt;gb|ARW57638.1| head assembly cochaperone [Serratia phage CHI14] &gt;gb|ARW57913.1| head assembly cochaperone [Serratia phage CBH8] &gt;gb|ARW58192.1| head assembly cochaperone [Serratia phage X20]</Hit_def>
+  <Hit_accession>YP_009609540</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>4.15505e-48</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEHVILVSEPAQAGDEKISAGGILLGKETQGQLPDMCEVYSIGEDVPKGFVEIGDLTPLPVGSVRNVTHPLVALGMKQSKEIRQKFVTCHYKSLACVYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GE+VILVSEPAQAGDE+++  G+++GK  QG++P++C V+S+G DVP+GF E+GDLT LPVG +RNV HP VALG+KQ KEI+QKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pir|PQ0056|</Hit_id>
+  <Hit_def>hypothetical protein 106 - phage T4 (fragment) [Escherichia virus T4]</Hit_def>
+  <Hit_accession>PQ0056</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>3.13121e-46</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>SLIKTRNSFIVTGNEFLFNFFWLLKTQSYKRMRNISNLTNWKRSQITNFAETFRNIRTDRVNYTQFRNFTLNTFTDNKS</Hsp_qseq>
+      <Hsp_hseq>SLIKTRNSFIVTGNEFLFNFFWLLKTQSYKRMRNISNLTNWKRSQITNFAETFRNIRTDRVNYTQFRNFTLNTFTDNKS</Hsp_hseq>
+      <Hsp_midline>SLIKTRNSFIVTGNEFLFNFFWLLKTQSYKRMRNISNLTNWKRSQITNFAETFRNIRTDRVNYTQFRNFTLNTFTDNKS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|YP_007236045.1|</Hit_id>
+  <Hit_def>phage head assembly chaperone protein [Yersinia phage phiR1-RT] &gt;ref|YP_009200471.1| head assembly chaperone protein [Yersinia phage vB_YenM_TG1] &gt;gb|AJD82020.1| head assembly chaperone protein [Yersinia phage vB_YenM_TG1] &gt;emb|CCI88786.1| phage head assembly chaperone protein [Yersinia phage phiR1-RT]</Hit_def>
+  <Hit_accession>YP_007236045</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>6.88123e-46</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEYIILVAEPKQAGEEQFSAGGIALGKLQQGELPEMCEVYSIGSDVPEAFVEIGDLTPMPVGKMANVVHPLVALGIKQPKEIKQKFVTCHYKSLSCIYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GEY+ILV+EP QAG+E+ +  G+ +GK  QGE+PE+C V+S+G DVPE F E+GDLT +PVG++ NV HP VALG+KQPKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|ARB06004.1|</Hit_id>
+  <Hit_def>hypothetical protein fHeYen901_231 [Yersinia phage fHe-Yen9-01]</Hit_def>
+  <Hit_accession>ARB06004</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>8.11127e-46</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEYIILVAEPKQAGEEQFSAGGIALGKLQQGELPEMCEVYSIGSDVPESFVEIGDLTPMPVGKMANVVHPLVALGIKQPKEIKQKFVTCHYKSLSCIYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GEY+ILV+EP QAG+E+ +  G+ +GK  QGE+PE+C V+S+G DVPE F E+GDLT +PVG++ NV HP VALG+KQPKEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|AWD90374.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Erwinia phage Cronus]</Hit_def>
+  <Hit_accession>AWD90374</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>3.79819e-44</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSDLPIKALGEYVILVSEPPQQGDEIQSAGGIILGKETQGQLPDMCQIYAIGDDVPAGFVEIGDLTPLPVGNVRNVTHPAVALGVKKAKEIKQKFVTCHYKSLSCVYK</Hsp_hseq>
+      <Hsp_midline>+  LPI+A+GEYVILVSEP Q GDE  +  G+I+GK  QG++P++C ++++G DVP GF E+GDLT LPVG +RNV HP VALG+K+ KEIKQKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|YP_004010072.1|</Hit_id>
+  <Hit_def>gp31 head assembly cochaperone with GroEL [Enterobacter phage CC31] &gt;gb|ADB81710.1| gp31 head assembly cochaperone with GroEL [Enterobacter phage CC31] &gt;gb|QEG13272.1| putative head assembly chaperone protein [Klebsiella phage vB_KpnM_KaAlpha]</Hit_def>
+  <Hit_accession>YP_004010072</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>1.1694e-43</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>LPIKAIGEHVILVSEPPQQGDEIVSSGGIVIGKQETGQIPDMCEIYSIGADVPEGIFEVGMLVPLPTGQIRNVPHPLVAAGMKKPKEIAQKFVTCHWKSIPCIY</Hsp_hseq>
+      <Hsp_midline>LPI+A+GE+VILVSEP Q GDE V+  G++IGK+  G++P++C ++S+G DVPEG  EVG L  LP GQIRNVPHP VA G+K+PKEI QKFVTCH+K+IPC+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|YP_009005493.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Enterobacter phage PG7] &gt;gb|AHI61132.1| head assembly cochaperone with GroEL [Enterobacter phage PG7] &gt;gb|AVR55397.1| head assembly cochaperone with GroEL [Enterobacter phage myPSH1140]</Hit_def>
+  <Hit_accession>YP_009005493</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.25651e-43</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>DLPIKAIGEHVILVSEPPQQGDEIVSSGGIVIGKQETGQIPDMCEIYSIGADVPEGIFEVGMLVPLPTGQIRNVPHPLVAAGMKKPKEIAQKFVTCHWKSIPCIY</Hsp_hseq>
+      <Hsp_midline> LPI+A+GE+VILVSEP Q GDE V+  G++IGK+  G++P++C ++S+G DVPEG  EVG L  LP GQIRNVPHP VA G+K+PKEI QKFVTCH+K+IPC+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>emb|SCN45907.1|</Hit_id>
+  <Hit_def>Head assembly cochaperone with GroEL (T4-like gp31) [Cronobacter phage Pet-CM3-4]</Hit_def>
+  <Hit_accession>SCN45907</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>1.65264e-43</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>DLPIKAIGEHVILVSEPPQQGDEIISSGGIVIGKQETGQIPDMCEIYSIGADVPEGIFEVGMLVPLPTGQIRNVPHPLVAAGMKKPKEIAQKFVTCHWKSIPCIY</Hsp_hseq>
+      <Hsp_midline> LPI+A+GE+VILVSEP Q GDE ++  G++IGK+  G++P++C ++S+G DVPEG  EVG L  LP GQIRNVPHP VA G+K+PKEI QKFVTCH+K+IPC+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|AUO78822.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Klebsiella phage vB_Kpn_F48] &gt;gb|QEG12812.1| putative head assembly chaperone protein [Klebsiella phage vB_KpnM_Potts1]</Hit_def>
+  <Hit_accession>AUO78822</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>1.27753e-42</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLII-GKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSDLPIRALGEYVILVSEPAQAGDPEVSAGGIIIEQRRAQGEVPELCEIYSVGEDVPKGFVEVGDLTPTPLGNIKHVTHPLVAAGIAKAKDIKQKFVTVHYKNLTCVYK</Hsp_hseq>
+      <Hsp_midline>+  LPIRA+GEYVILVSEPAQAGD EV+  G+II  +R QGEVPELC ++SVG DVP+GF EVGDLT  P+G I++V HP VA G+ + K+IKQKFVT HYK + C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|QDB71871.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Klebsiella phage Marfa]</Hit_def>
+  <Hit_accession>QDB71871</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>3.23871e-41</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLII-GKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MTDLPIRALGEYVILVSEPAQAGEPEVSAGGIIIEQRRSQGEVPELCEIYSIGEDVPKGFVEVGDLTPTPLGSIKHVTHPLVAAGIAKAKDIKQKFVTVHYKNLTCVYK</Hsp_hseq>
+      <Hsp_midline>+  LPIRA+GEYVILVSEPAQAG+ EV+  G+II  +R QGEVPELC ++S+G DVP+GF EVGDLT  P+G I++V HP VA G+ + K+IKQKFVT HYK + C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>dbj|BBC78278.1|</Hit_id>
+  <Hit_def>Head assembly cochaperone with GroEL [Escherichia phage EcS1]</Hit_def>
+  <Hit_accession>BBC78278</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>6.76571e-37</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>QLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQ--IRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>ELPIKALGEHIIFVSEPSQAGDDKTSESGIFLGKETQGQLPEVMEVHSIGDEVPTGFIEVGDLVPYLASNPTFKNVIHPLVALGIKQPKEVKQKFVAAHYKSLGVVYK</Hsp_hseq>
+      <Hsp_midline>+LPI+A+GE++I VSEP+QAGD++ +ESG+ +GK  QG++PE+  VHS+G +VP GF EVGDL          +NV HP VALG+KQPKE+KQKFV  HYK++  +YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|ASD52166.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Pseudomonas phage PspYZU05]</Hit_def>
+  <Hit_accession>ASD52166</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>2.96018e-32</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>MKALGAHVILVSTPSKRGDEIKSASGIFLGVEQDSQVPEVCTVYSIGSDVPAGFLKVGDQVPLPLGNIRNVPQLDVALGKKQLKELSERYVTCHYSAIPCVY</Hsp_hseq>
+      <Hsp_midline>++A+G +VILVS P++ GDE  + SG+ +G     +VPE+C V+S+G DVP GF +VGD   LP+G IRNVP   VALG KQ KE+ +++VTCHY AIPC+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|YP_009030269.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Serratia phage PS2] &gt;gb|AHY25461.1| head assembly cochaperone with GroEL [Serratia phage PS2]</Hit_def>
+  <Hit_accession>YP_009030269</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.38122e-32</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGF-CEVGDLTSLPVGQI-RNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>LPIKALGEHVILVTKAASAGTEEVSASGIILGKRDTPELPQMCTVFAVGPEVPEDFGLEVGDQVPMPTGGVARNVMHPSVALGMTQPKDHDDKYCTVHYKGIACVYK</Hsp_hseq>
+      <Hsp_midline>LPI+A+GE+VILV++ A AG EEV+ SG+I+GKR   E+P++C V +VGP+VPE F  EVGD   +P G + RNV HP VALG+ QPK+   K+ T HYK I C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|YP_004300788.1|</Hit_id>
+  <Hit_def>gp31 head assembly cochaperone with GroEL [Acinetobacter virus 133] &gt;gb|ADJ19522.1| gp31 head assembly cochaperone with GroEL [Acinetobacter virus 133]</Hit_def>
+  <Hit_accession>YP_004300788</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.73464e-32</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLP--VGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>INAVGEYVIVVSTPRQQGDEILSETGLFLGQVEQSELPEYLTVYSIGPDVPPGVLQIGDLTAIPPGTGNMRNVPHPDVIEGRKEPKEIREKYTSIHWKAFSTVYR</Hsp_hseq>
+      <Hsp_midline>I AVGEYVI+VS P Q GDE ++E+GL +G+  Q E+PE   V+S+GPDVP G  ++GDLT++P   G +RNVPHP V  G K+PKEI++K+ + H+KA   +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|YP_004009825.1|</Hit_id>
+  <Hit_def>gp31 head assembly cochaperone with GroEL [Acinetobacter phage Acj61] &gt;gb|ADG36173.1| gp31 head assembly cochaperone with GroEL [Acinetobacter phage Acj61]</Hit_def>
+  <Hit_accession>YP_004009825</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>1.40011e-27</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTES--GLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>IKALGEFLVLRAIAKPAGSEIYSDTVPGLVVGVREQGEIPEVCYVHDIGPGVPEGIFKIGDMTPVPLGKMANIPHPLVATKEKLAKEIDEKFISVHYTNVPALY</Hsp_hseq>
+      <Hsp_midline>I+A+GE+++L +    AG E  +++  GL++G R QGE+PE+C VH +GP VPEG  ++GD+T +P+G++ N+PHP VA   K  KEI +KF++ HY  +P LY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|YP_009195622.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Proteus phage vB_PmiM_Pm5461] &gt;gb|AKA62066.1| head assembly cochaperone with GroEL [Proteus phage vB_PmiM_Pm5461] &gt;gb|ASZ76469.1| head assembly chaperone protein [Proteus phage PM2]</Hit_def>
+  <Hit_accession>YP_009195622</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>2.29897e-27</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTESGLIIG-KRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>IKALGESVVITAIAKSAGTEERSSSGIIISTQRAEGEIPQLGEIYSIGDSVPKGYFEIGDVVPLPNGNMRNVPHPETVFNNKKAKELDQKFITAHYRSIAAVYK</Hsp_hseq>
+      <Hsp_midline>I+A+GE V++ +    AG EE + SG+II  +R +GE+P+L  ++S+G  VP+G+ E+GD+  LP G +RNVPHP      K+ KE+ QKF+T HY++I  +YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gb|QEG11810.1|</Hit_id>
+  <Hit_def>hypothetical protein KPN6_46 [Klebsiella phage KPN6]</Hit_def>
+  <Hit_accession>QEG11810</Hit_accession>
+  <Hit_len>64</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>9.61219e-27</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MCEIYSIGDDVPKGFVEVGDLTPLPVGNIRNVPHPLVAAGVKKPKEIRQKFVTCHYKSLACVYK</Hsp_hseq>
+      <Hsp_midline>+C ++S+G DVP+GF EVGDLT LPVG IRNVPHP VA G+K+PKEI+QKFVTCHYK++ C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_140460866.1|</Hit_id>
+  <Hit_def>co-chaperone GroES [Cellulomonas oligotrophica] &gt;gb|AUM58415.1| head assembly cochaperone with GroEL [Proteus phage phiP4-3]</Hit_def>
+  <Hit_accession>WP_140460866</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.63991e-26</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MDIKALGESVIIAAKAESAGTEEVSASGIVIGVRQQGELPQYGEIYAIGDCVPQGYFEIGDKVPLPTGNMRNVPHPETVFNDKKASEFPIKFITAHYKAIAAVYK</Hsp_hseq>
+      <Hsp_midline>+ I+A+GE VI+ ++   AG EEV+ SG++IG R QGE+P+   ++++G  VP+G+ E+GD   LP G +RNVPHP      K+  E   KF+T HYKAI  +YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|YP_004009571.1|</Hit_id>
+  <Hit_def>gp31 head assembly cochaperone with GroEL [Acinetobacter phage Ac42] &gt;gb|ADI96447.1| gp31 head assembly cochaperone with GroEL [Acinetobacter phage Ac42]</Hit_def>
+  <Hit_accession>YP_004009571</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>2.21416e-26</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>MSKFNIKAIGENVILISYPPKKGDQETTASGIILPALEQSELPAYCEVFSIGGEVPEGVIKLGDKTSVPTGAMKHVPHPDVIEGKKTQNEVRESFITVHWKNIPAVY</Hsp_hseq>
+      <Hsp_midline>+ +  I+A+GE VIL+S P + GD+E T SG+I+    Q E+P  C V S+G +VPEG  ++GD TS+P G +++VPHP V  G K   E+++ F+T H+K IP +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gb|AZV01338.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Shigella phage vB_SdyM_006]</Hit_def>
+  <Hit_accession>AZV01338</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>4.24395e-26</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MDIKALGESVIIAAKAESAGTEEVSASGIVIGVRQQGELPQYGEIYAIGDCVPQGYFEIGDKVPLPTGNMRNVPHPETVFNDKKASEFPIKFITAHYKSIAAVYK</Hsp_hseq>
+      <Hsp_midline>+ I+A+GE VI+ ++   AG EEV+ SG++IG R QGE+P+   ++++G  VP+G+ E+GD   LP G +RNVPHP      K+  E   KF+T HYK+I  +YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gb|QAU03877.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Acinetobacter phage Henu6]</Hit_def>
+  <Hit_accession>QAU03877</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.78916e-23</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTE--SGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>IVALGEYVVLKAVARSAGTEIFSDVVPDLVIGVREQGEVPKICEVFKIGPNVPKGLFEIGDGCPFPLGDKLNVPHPDVAYGNVKEKDRDEKYITCHYRNIACVYK</Hsp_hseq>
+      <Hsp_midline>I A+GEYV+L +    AG E  ++    L+IG R QGEVP++C V  +GP+VP+G  E+GD    P+G   NVPHP VA G  + K+  +K++TCHY+ I C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|YP_009280075.1|</Hit_id>
+  <Hit_def>dead assembly cochaperone with GroEL [Morganella phage vB_MmoM_MP1] &gt;gb|ANM46562.1| dead assembly cochaperone with GroEL [Morganella phage vB_MmoM_MP1]</Hit_def>
+  <Hit_accession>YP_009280075</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.81576e-22</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>IKALGNSVIIAARAESAGSEEKSAMGIIVGTRVQGEIPEYGEIFSIGEMVPPGYFTIGDKVPLPVGNMRNVPHPETVFNGKSAKDFPIKYITSDYRNIAAVYK</Hsp_hseq>
+      <Hsp_midline>I+A+G  VI+ +    AG EE +  G+I+G RVQGE+PE   + S+G  VP G+  +GD   LPVG +RNVPHP      K  K+   K++T  Y+ I  +YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|YP_004010349.1|</Hit_id>
+  <Hit_def>gp31 head assembly cochaperone with GroEL [Acinetobacter phage Acj9] &gt;gb|ADG60112.1| gp31 head assembly cochaperone with GroEL [Acinetobacter phage Acj9]</Hit_def>
+  <Hit_accession>YP_004010349</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>2.42602e-22</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>IVALGNHVVLKAVAKSAGREQVTQSGFILPPTEKSEMPTHCVIHDIGASVPEGMFKIGDMTPFPLGEKLNVPHPDVISGICKPDERDDKYMSTHYSNISCVYE</Hsp_hseq>
+      <Hsp_midline>I A+G +V+L +    AG E+VT+SG I+    + E+P  CV+H +G  VPEG  ++GD+T  P+G+  NVPHP V  G+ +P E   K+++ HY  I C+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|YP_009001472.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Acinetobacter phage ZZ1] &gt;gb|AHI44680.1| head assembly cochaperone with GroEL [Acinetobacter phage ZZ1]</Hit_def>
+  <Hit_accession>YP_009001472</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>8.2891e-22</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTE--SGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCL</Hsp_qseq>
+      <Hsp_hseq>IVALGEYVVLKAVARSAGTEIFSDVVPDLVIGVREQGEVPKICEVFKIGPNVPKGLFEIGDGCPFPLGDKLNVPHPDVAYGNVKEKDRDEKYITCHYRNIACV</Hsp_hseq>
+      <Hsp_midline>I A+GEYV+L +    AG E  ++    L+IG R QGEVP++C V  +GP+VP+G  E+GD    P+G   NVPHP VA G  + K+  +K++TCHY+ I C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gb|AWY10227.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Acinetobacter phage AM101] &gt;gb|AZU98679.1| head assembly chaperone protein [Acinetobacter phage AbTZA1] &gt;emb|SSU39615.1| Chaperonin 10 Kd subunit [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>AWY10227</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.49228e-21</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSQHKIVALGSHVILKAVAKSAGATEKTASGILLPPKKESEIPNMCEIFAIGPTVPFGLFEIGDKTPFPLGEKLNVPHPDVVAGICEAKDRDDKFITTHFSNIACVYK</Hsp_hseq>
+      <Hsp_midline>+ Q  I A+G +VIL +    AG  E T SG+++  + + E+P +C + ++GP VP G  E+GD T  P+G+  NVPHP V  G+ + K+   KF+T H+  I C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gb|AXY82692.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Acinetobacter phage KARL-1]</Hit_def>
+  <Hit_accession>AXY82692</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>7.35734e-20</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>IVALGSNVILKAVAKSAGAAQKTASGIILPPKQESEIPNMCEIFAIGPTVPFGLVEIGDKTPFPLGEKLNVPHPDVVAGICEAKDRDDKYITTHFSNIACVYK</Hsp_hseq>
+      <Hsp_midline>I A+G  VIL +    AG  + T SG+I+  + + E+P +C + ++GP VP G  E+GD T  P+G+  NVPHP V  G+ + K+   K++T H+  I C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gb|AXF40776.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Acinetobacter phage vB_ApiM_fHyAci03]</Hit_def>
+  <Hit_accession>AXF40776</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>9.2491e-20</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>IVALGSNVILKAVAKSAGAAQKTASGIILPPKQESEIPNMCEIFAIGPTVPFGLFEIGDKTPFPLGEKLNVPHPDVVAGICEAKDRDDKYITTHFSNIACVYK</Hsp_hseq>
+      <Hsp_midline>I A+G  VIL +    AG  + T SG+I+  + + E+P +C + ++GP VP G  E+GD T  P+G+  NVPHP V  G+ + K+   K++T H+  I C+YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|MBF84594.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acidobacteria bacterium]</Hit_def>
+  <Hit_accession>MBF84594</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>1.10974e-18</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MNIKANHEYVVLETNAKRAGEEDVSESGIVLGKRTQGEVPEYATVVAVGEGVENKDIKVGSLVPVTNGRMSNVPDPRVVAGEHVPKDQLRQLAVTHWKNITVIYE</Hsp_hseq>
+      <Hsp_midline>+ I+A  EYV+L +   +AG+E+V+ESG+++GKR QGEVPE   V +VG  V     +VG L  +  G++ NVP P V  G   PK+  ++    H+K I  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|NP_899377.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroE [Vibrio phage KVP40] &gt;gb|AAQ64200.1| head assembly cochaperone with GroE [Vibrio phage KVP40] &gt;gb|AFN37360.1| head assembly cochaperone with GroE [Vibriophage phi-pp2]</Hit_def>
+  <Hit_accession>NP_899377</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.08634e-15</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQK-FVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>LKAYAMGEQIIIDTKAVKEGEEIKSEGGIVLGRATQGEVPLHGIVISVGEDVDQNVIKVGDKVLLPQGNMKNVPDPRIIAGIMKPDDQDRALWVHTHYKNIAAVYR</Hsp_hseq>
+      <Hsp_midline>L   A+GE +I+ ++  + G+E  +E G+++G+  QGEVP   +V SVG DV +   +VGD   LP G ++NVP P +  G+ +P +  +  +V  HYK I  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|ALP47563.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Vibrio phage phi-ST2]</Hit_def>
+  <Hit_accession>ALP47563</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.77098e-15</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALG-LKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>LKAHAMGEQIIIDTKAVKEGEEIKSEGGIVLGRATQPEVPLHGIVISVGEDVDQNVIKVGDKVLLPLGNIKNVPDPRIIEGIMKQDDQDRALWVHTHYKNIAAVYR</Hsp_hseq>
+      <Hsp_midline>L   A+GE +I+ ++  + G+E  +E G+++G+  Q EVP   +V SVG DV +   +VGD   LP+G I+NVP P +  G +KQ  + +  +V  HYK I  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|YP_008125328.1|</Hit_id>
+  <Hit_def>head assembly cochaperone with GroEL [Vibrio phage nt-1] &gt;gb|AGN30179.1| head assembly cochaperone with GroEL [Vibrio phage nt-1]</Hit_def>
+  <Hit_accession>YP_008125328</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.27974e-15</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALG-LKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>LKAYALGEQIIIDTKAIKEGEEIKSSGGIVLGRATQGEVPLFGIVISVGEDVDQDVIQVGDKVLLPQGNIKNVPDPRIISGEMKQDDADRALWVHTHYKNVAAVYR</Hsp_hseq>
+      <Hsp_midline>L   A+GE +I+ ++  + G+E  +  G+++G+  QGEVP   +V SVG DV +   +VGD   LP G I+NVP P +  G +KQ    +  +V  HYK +  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>emb|CCL97542.1|</Hit_id>
+  <Hit_def>protein of unknown function [Escherichia virus RB43]</Hit_def>
+  <Hit_accession>CCL97542</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>6.17589e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>SEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCE--VGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQ---KFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>NKMSELKVKASFEYVIIETVARPAGSEIVSESGFLIGIRQQGEEPISGKIVSVGPDVPEEKAKELLGKMVPLPKGHMANVPDPDLVKGVISAEDARTKEVKYVSAHYKAVQAIYE</Hsp_hseq>
+      <Hsp_midline>+++ +L ++A  EYVI+ +    AG E V+ESG +IG R QGE P    + SVGPDVPE   +  +G +  LP G + NVP P +  G+   ++ +    K+V+ HYKA+  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|YP_009006093.1|</Hit_id>
+  <Hit_def>capsid assembly protein [Vibrio phage VH7D] &gt;ref|YP_009201234.1| head assembly cochaperone [Vibrio phage ValKK3] &gt;gb|ALP47177.1| head assembly chaperone protein [Vibrio phage phi-Grn1] &gt;gb|QBX05960.1| capsid assembly protein [Vibrio phage ValB1 HC] &gt;gb|AGB06806.1| capsid assembly protein [Vibrio phage VH7D] &gt;gb|AJT60972.1| head assembly cochaperone [Vibrio phage ValKK3]</Hit_def>
+  <Hit_accession>YP_009006093</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.10908e-14</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQK-FVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>LKAHAMGEQIIIDTKAVKEGEEIKSEGGIVLGRATQPEVPLHGIVISVGEDVDQKVIKVGDKVLLPLGNIKNVPDPRIIEGIMKPDDQDRALWVHTHYKNIAAVYR</Hsp_hseq>
+      <Hsp_midline>L   A+GE +I+ ++  + G+E  +E G+++G+  Q EVP   +V SVG DV +   +VGD   LP+G I+NVP P +  G+ +P +  +  +V  HYK I  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|YP_009097678.1|</Hit_id>
+  <Hit_def>co-chaperonin [Citrobacter phage Miller] &gt;ref|YP_009218660.1| head assembly chaperone protein [Citrobacter phage IME-CF2] &gt;ref|YP_239052.1| gp31 co-chaperonin for GroEL [Escherichia virus RB43] &gt;gb|AAX78598.1| gp31 co-chaperonin for GroEL [Escherichia virus RB43] &gt;gb|AIK68012.1| co-chaperonin [Citrobacter phage Miller] &gt;gb|AKR15968.1| head assembly chaperone protein [Citrobacter phage IME-CF2] &gt;emb|CCK73925.1| protein of unknown function [Escherichia virus RB43]</Hit_def>
+  <Hit_accession>YP_009097678</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.32912e-14</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCE--VGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQ---KFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSELKVKASFEYVIIETVARPAGSEIVSESGFLIGIRQQGEEPISGKIVSVGPDVPEEKAKELLGKMVPLPKGHMANVPDPDLVKGVISAEDARTKEVKYVSAHYKAVQAIYE</Hsp_hseq>
+      <Hsp_midline>+ +L ++A  EYVI+ +    AG E V+ESG +IG R QGE P    + SVGPDVPE   +  +G +  LP G + NVP P +  G+   ++ +    K+V+ HYKA+  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|AUR85877.1|</Hit_id>
+  <Hit_def>chaperonin 10 Kd subunit [Vibrio phage 1.081.O._10N.286.52.C2]</Hit_def>
+  <Hit_accession>AUR85877</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.65639e-13</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALG-LKQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>LEVIALGEQIIIDTKAIKEGEEVKSAGGIVIGRATEGEVPLHGIVIAVGEEVNTDIINIGDKVLLPQGSIRNVPDPRIIAGEMSQNDNNRVLWVSTHYKNITAVYR</Hsp_hseq>
+      <Hsp_midline>L + A+GE +I+ ++  + G+E  +  G++IG+  +GEVP   +V +VG +V      +GD   LP G IRNVP P +  G + Q    +  +V+ HYK I  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|AON97088.1|</Hit_id>
+  <Hit_def>co-chaperonin for GroEL [Cronobacter phage vB_CsaM_leE]</Hit_def>
+  <Hit_accession>AON97088</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>4.86374e-12</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCE--VGDLTSLPVGQIRNVPHPFVALGL---KQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>EMSELKVKASGEYVIIEATARPQGSEIKSESGIVVGVRQHGEQPFYGKVVSVGADVPEEVAERILGKFIPLPSAHMANVPDPDLVAGYISEKEAKEKETKYVSAHYKAIQAIYE</Hsp_hseq>
+      <Hsp_midline>E+ +L ++A GEYVI+ +     G E  +ESG+++G R  GE P    V SVG DVPE   E  +G    LP   + NVP P +  G    K+ KE + K+V+ HYKAI  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|YP_008060600.1|</Hit_id>
+  <Hit_def>co-chaperonin for GroEL [Escherichia phage Lw1] &gt;gb|AGJ71485.1| co-chaperonin for GroEL [Escherichia phage Lw1]</Hit_def>
+  <Hit_accession>YP_008060600</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.7679e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>SEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCE--VGDLTSLPVGQIRNVPHPFVALGL---KQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>NKMSELKVKASFEYVIIEATARPQGSEIVSSTGIVVGVRQQGEQPYFGKVVSVGPEVPEENAKALLGKMVPLPHAQMANVPDPDLVAGYISEKEAKEKETKYVSAHYKAVQAIYE</Hsp_hseq>
+      <Hsp_midline>+++ +L ++A  EYVI+ +     G E V+ +G+++G R QGE P    V SVGP+VPE   +  +G +  LP  Q+ NVP P +  G    K+ KE + K+V+ HYKA+  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|YP_006986352.1|</Hit_id>
+  <Hit_def>co-chaperonin for GroEL [Cronobacter phage vB_CsaM_GAP161] &gt;gb|AFC22183.1| co-chaperonin for GroEL [Cronobacter phage vB_CsaM_GAP161] &gt;gb|AOG16203.1| co-chaperonin for GroEL [Cronobacter phage vB_CsaM_leB] &gt;gb|AOG16483.1| co-chaperonin for GroEL [Cronobacter phage vB_CsaM_leN] &gt;gb|AYJ72937.1| head assembly cochaperone with GroEL [Citrobacter phage Maroon]</Hit_def>
+  <Hit_accession>YP_006986352</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.55511e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCE--VGDLTSLPVGQIRNVPHPFVALGL---KQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>EMSELKVKASGEYVIIEATARPQGSEIKSESGIVVGVRQHGEQPFYGKVVSVGVDVPAEAAERILGKYIPLPSAHMANVPDPDLVAGYISEKEAKEKETKYVSAHYKAIQAIYE</Hsp_hseq>
+      <Hsp_midline>E+ +L ++A GEYVI+ +     G E  +ESG+++G R  GE P    V SVG DVP    E  +G    LP   + NVP P +  G    K+ KE + K+V+ HYKAI  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|YP_009196422.1|</Hit_id>
+  <Hit_def>putative head assembly cochaperone with GroEL [Cronobacter phage S13] &gt;gb|AIA64837.1| putative head assembly cochaperone with GroEL [Cronobacter phage S13]</Hit_def>
+  <Hit_accession>YP_009196422</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.67301e-10</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIK-QKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>MKALDESVIIEVFARRKGQEITSESGLIIGREQQGEIPEWGTIVSVG-DRTVGL-ELGDIVLLPNGRLTHVPDPNVVDGFISKEDPKARQLITTHWKNIQVKY</Hsp_hseq>
+      <Hsp_midline>++A+ E VI+     + G E  +ESGLIIG+  QGE+PE   + SVG D   G  E+GD+  LP G++ +VP P V  G    ++ K ++ +T H+K I   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|YP_009285612.1|</Hit_id>
+  <Hit_def>co-chaperonin for GroEL [Citrobacter phage vB_CfrM_CfP1] &gt;gb|ANS06074.1| co-chaperonin for GroEL [Citrobacter phage vB_CfrM_CfP1]</Hit_def>
+  <Hit_accession>YP_009285612</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.71356e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>SEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCE--VGDLTSLPVGQIRNVPHPFVALGL---KQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>NKMSELKVKASFEYVIIEATARPQGSEIVSSTGIVVGVRQHGEQPYFGKVVSVGPEVPEENAKALLGKMVPLPHAQMANVPDPDLVAGYISEKEAKEKEKKYVSAHYKAVQAIYE</Hsp_hseq>
+      <Hsp_midline>+++ +L ++A  EYVI+ +     G E V+ +G+++G R  GE P    V SVGP+VPE   +  +G +  LP  Q+ NVP P +  G    K+ KE ++K+V+ HYKA+  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|YP_003858375.1|</Hit_id>
+  <Hit_def>gp31 co-chaperonin for GroEL [Escherichia virus RB16] &gt;gb|ADJ55379.1| gp31 co-chaperonin for GroEL [Escherichia virus RB16]</Hit_def>
+  <Hit_accession>YP_003858375</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.06649e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCE--VGDLTSLPVGQIRNVPHPFVALGL---KQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSELKVKASFEYVIIEATARPQGSEIVSSTGIVVGVRQHGEQPYFGKVVSVGPEVPEENAKALLGKMVPLPHAQMANVPDPDLVAGYISEKEAKEKETKYVSAHYKAIQAIYE</Hsp_hseq>
+      <Hsp_midline>+ +L ++A  EYVI+ +     G E V+ +G+++G R  GE P    V SVGP+VPE   +  +G +  LP  Q+ NVP P +  G    K+ KE + K+V+ HYKAI  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|QDH49066.1|</Hit_id>
+  <Hit_def>chaperone protein [Panteoa phage Phynn]</Hit_def>
+  <Hit_accession>QDH49066</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>8.53212e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>MSEVQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEV--GDLTSLPVGQIRNVPHPFVALGLKQPKEIKQK---FVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>MTQEKYDTVRATGEYVIIKSIAHPANSEIYSQGGMLLGYRELPEVPKSGVIVDVGSDVPEETRKILLNARVVLPTQHMTSVPDPELISGEITEEEARKKITKFSTCHYKAVQAVY</Hsp_hseq>
+      <Hsp_midline>M++ +   +RA GEYVI+ S    A  E  ++ G+++G R   EVP+  V+  VG DVPE   ++       LP   + +VP P +  G    +E ++K   F TCHYKA+  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|AWH15744.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Aeromonas phage 60AhydR15PP]</Hit_def>
+  <Hit_accession>AWH15744</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.13859e-10</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>EYVILVSEP-AQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>ESIILESKNLASAGDEIISESGFVLGKRDLPEVPLTAEIISVGKDVPD-HLKVGMQVLIPNGRMHNVPDPRYLSGEISAKN-SRKLSACHWKDIQVVY</Hsp_hseq>
+      <Hsp_midline>E +IL S+  A AGDE ++ESG ++GKR   EVP    + SVG DVP+   +VG    +P G++ NVP P    G    K   +K   CH+K I  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|YP_009194893.1|</Hit_id>
+  <Hit_def>head assembly cochaperone protein [Citrobacter phage Margaery] &gt;gb|ALF01767.1| head assembly cochaperone protein [Citrobacter phage Margaery]</Hit_def>
+  <Hit_accession>YP_009194893</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.86766e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>VQQLPIRAVGEYVILVSEPAQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCE--VGDLTSLPVGQIRNVPHPFVALGL---KQPKEIKQKFVTCHYKAIPCLYK</Hsp_qseq>
+      <Hsp_hseq>MSELKVKASGEYVIIEATARPQGSEIKSESGIVVGVRQHGEQPFYGKVVSVGVDVPAEAAERILGKYIPLPSAHMANVPDPDLVAGYISEKEAKEKETKYVSAHYKAIQAIYE</Hsp_hseq>
+      <Hsp_midline>+ +L ++A GEYVI+ +     G E  +ESG+++G R  GE P    V SVG DVP    E  +G    LP   + NVP P +  G    K+ KE + K+V+ HYKAI  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|YP_003969090.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aeromonas phage phiAS4] &gt;ref|YP_007010866.1| co-chaperonin for GroEL [Aeromonas phage Aes508] &gt;ref|YP_007677905.1| head assembly cochaperone with GroEL [Aeromonas phage Aes012] &gt;ref|YP_009613034.1| co-chaperonin for GroEL [Aeromonas phage AS-gz] &gt;gb|AWH14918.1| head assembly chaperone protein [Aeromonas phage 50AhydR13PP] &gt;gb|ADM79644.1| hypothetical protein phiAS4_ORF0072 [Aeromonas phage phiAS4] &gt;gb|AFN69818.1| head assembly cochaperone with GroEL [Aeromonas phage Aes012] &gt;gb|AFQ97259.1| co-chaperonin for GroEL [Aeromonas phage Aes508] &gt;gb|ASU00583.1| co-chaperonin for GroEL [Aeromonas phage AS-gz]</Hit_def>
+  <Hit_accession>YP_003969090</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>2.0089e-09</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>EYVILVSEP-AQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>ESIILESKNLASAGDEIISDSGFVLGKRDLPEVPLTAEIISVGKDVPD-HLKVGMQVLIPNGRMHNVPDPRYLSGEISAKN-SRKLSACHWKDIQVVY</Hsp_hseq>
+      <Hsp_midline>E +IL S+  A AGDE +++SG ++GKR   EVP    + SVG DVP+   +VG    +P G++ NVP P    G    K   +K   CH+K I  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|YP_009217598.1|</Hit_id>
+  <Hit_def>head assembly chaperone protein [Stenotrophomonas phage IME13] &gt;gb|AFQ22678.1| head assembly chaperone protein [Stenotrophomonas phage IME13]</Hit_def>
+  <Hit_accession>YP_009217598</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>3.74232e-09</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>EYVILVSEP-AQAGDEEVTESGLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>ESIILESKNLASAGDEIISDSGFVLGKRDLPEVPLTAEIISVGKDVPD-HLKVGMQVLIPNGRMHNVPDPRYLSGEISAKN-SRKLSACHWKDIQVVY</Hsp_hseq>
+      <Hsp_midline>E +IL S+  A AGDE +++SG ++GKR   EVP    + SVG DVP+   +VG    +P G++ NVP P    G    K   +K   CH+K I  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|NP_932549.1|</Hit_id>
+  <Hit_def>head assembly co-chaperone [Aeromonas virus 44RR2] &gt;ref|YP_238921.1| head assembly co-chaperone [Aeromonas virus 31] &gt;gb|APU00666.1| head assembly chaperone [Aeromonas phage 44RR2.8t.2] &gt;gb|APU01085.1| head assembly chaperone [Aeromonas phage 31.2] &gt;gb|APU01995.1| head assembly chaperone [Aeromonas phage L9-6] &gt;gb|APU02247.1| head assembly chaperone [Aeromonas phage Riv-10] &gt;gb|APU02494.1| head assembly chaperone [Aeromonas phage SW69-9]</Hit_def>
+  <Hit_accession>NP_932549</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.4745e-05</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LPIRAVGEYVILVSEPAQAGDEEVTES--GLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>LPIAQFESIIIESKQLASAGDEIMSSTIPGFVVGKRDLPEIPLTAEVISVGPEVPD-HIKPGMVILVPNGRLDNVPDPRYLRGEIDVKQSRKMSVT-HWKNIQVIY</Hsp_hseq>
+      <Hsp_midline>LPI      +I   + A AGDE ++ +  G ++GKR   E+P    V SVGP+VP+   + G +  +P G++ NVP P    G    K+ ++  VT H+K I  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|QBX32627.1|</Hit_id>
+  <Hit_def>head assembly co-chaperone [Aeromonas phage Asfd_1]</Hit_def>
+  <Hit_accession>QBX32627</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>2.71712e-05</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>EYVILVSEPAQAGDEEVTES---GLIIGKRVQGEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRNVPHP-FVALGLKQPKEIKQKFVTCHYKAIPCLY</Hsp_qseq>
+      <Hsp_hseq>ESVILESKNLEMAGAEIMSSTIPGFVVGKRETHEIPLTAKIISVGAEVP-SHLEVGMTVLIPNGRMDNVPDPRFLAGEIKAPD--GRKMSVTHWKNIQVVY</Hsp_hseq>
+      <Hsp_midline>E VIL S+  +    E+  S   G ++GKR   E+P    + SVG +VP    EVG    +P G++ NVP P F+A  +K P    +K    H+K I  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_081201638.1|</Hit_id>
+  <Hit_def>RagB/SusD family nutrient uptake outer membrane protein [Niastella yeongjuensis] &gt;gb|OQP47432.1| starch-binding protein [Niastella yeongjuensis] &gt;emb|SEN83942.1| Starch-binding associating with outer membrane [Niastella yeongjuensis]</Hit_def>
+  <Hit_accession>WP_081201638</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>4.08194</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GEVPELCVVHSVGPDVPEGFCEVGDLTSLPVGQIRN--------------VPHPFVALG</Hsp_qseq>
+      <Hsp_hseq>GDVPFLS--HTVSSDVDEANIEIGDVARMPIGQVKDSILSDLTYAYNKLPAPSPNVALG</Hsp_hseq>
+      <Hsp_midline>G+VP L   H+V  DV E   E+GD+  +P+GQ+++               P P VALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>234979574</Statistics_db-num>
+      <Statistics_db-len>84697594569</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

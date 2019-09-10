@@ -1,11 +1,11 @@
 #------------------------------------------------------------------------------#
 
-#Import SearchIO from Biopython package
-from Bio import SearchIO
+#Import from Biopython package
+from Bio import SearchIO, SeqIO
 
 #Files to change
-blast_xml_file = 'phage_blastx.xml'
-blast_fasta_file = 'phage_resultsx.fa'
+blast_xml_file = 'Sequence Files/phage-blastx-alignment-blosum62-gap15-2.xml'
+blast_fasta_file = 'Sequence Files/phage_blastx-alignment-blosum62-gap15-2.fa'
 
 #Read in Blast XML
 blast_result = SearchIO.read(blast_xml_file, 'blast-xml')
